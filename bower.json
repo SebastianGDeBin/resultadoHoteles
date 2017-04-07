@@ -1,0 +1,21 @@
+{
+  "name": "resultadohoteles",
+  "description": "Ejercicio resultado de hoteles",
+  "main": "index.js",
+  "authors": [
+    "Sebastian De Bin <sebastiandebin@live.com.ar>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SebastianGDeBin/resultadoHoteles",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/client/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
