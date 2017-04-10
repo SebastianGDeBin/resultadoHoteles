@@ -101,7 +101,7 @@ gulp.task('bundle', ['watch'], () => {
 });
 
 
-gulp.task('default', ['inject','nodemon']);
+gulp.task('default', ['build', 'inject','nodemon']);
 
 /**
  * Build!!!!

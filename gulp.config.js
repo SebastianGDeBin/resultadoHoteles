@@ -27,7 +27,7 @@ module.exports = function () {
         templateCache: {
             file: 'app.templates.js',
             options: {
-                module: 'todos',
+                module: 'hotelsResult',
                 moduleSystem: "IIFE"
             }
         },
