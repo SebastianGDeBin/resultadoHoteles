@@ -3,7 +3,7 @@
         .module('hotelsResult')
         .component('hotelsResultRoot',{
             controller: HotelResultController,
-            templateUrl:'result/hotel-result-root.html'
+           templateUrl:'result/hotel-result-root.html'
         });
     HotelResultController.$inject = ['HotelsResultService'];
 
@@ -12,7 +12,7 @@
         var _self = this;
 
         this.$onInit = function(){
-            _self.listHotels = HotelsResultService.getHotels();
+            _self.hotels = HotelsResultService.getHotels();
         };
 
     }
