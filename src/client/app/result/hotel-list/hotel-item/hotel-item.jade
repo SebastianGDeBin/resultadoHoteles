@@ -1,3 +1,17 @@
-div
-    h1 item de hotel
-    {{$ctrl.hotel}}
+div.descHotel
+    section.imgHotel
+        p Aca van las imagenes!
+    section.dataHotel
+        p {{$ctrl.hotel.name}}
+        img(src="estrella.jpg"
+        ng-repeat=("star in $ctrl.stars($ctrl.hotel.stars) track by $index"))
+    section.dataPrice
+        p Precio por habitacion
+        p.price
+            strong ARS{{$ctrl.hotel.price}}
+        p
+            | Precio sin promo ARS 1.142
+            br
+            | Impuestos y tasas no incluidas
+        a(href='') Ver Hotel
+        p Paga en cuotas

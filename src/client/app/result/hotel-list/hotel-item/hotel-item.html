@@ -1,1 +1,1 @@
-<div><h1>item de hotel</h1>{{$ctrl.hotel}}</div>
+<div class="descHotel"><section class="imgHotel"><p>Aca van las imagenes!</p></section><section class="dataHotel"><p>{{$ctrl.hotel.name}}</p><img src="estrella.jpg" ng-repeat="star in $ctrl.stars($ctrl.hotel.stars) track by $index"></section><section class="dataPrice"><p>Precio por habitacion</p><p class="price"><strong>ARS{{$ctrl.hotel.price}}</strong></p><p>Precio sin promo ARS 1.142<br>Impuestos y tasas no incluidas</p><a href="">Ver Hotel</a><p>Paga en cuotas</p></section></div>

@@ -1,0 +1,28 @@
+.dataPrice{
+  float: right;
+  padding: 15px;
+  border-left-style: dashed ;
+  border-width: 1px;
+  text-align: center;
+}
+.dataHotel{
+  float: left;
+  padding: 15px;
+}
+
+
+.price{
+  color: darkorange;
+}
+
+.descHotel{
+  &:before,&:after{
+    content: " ";
+    display: table;
+  }
+  &:after{
+    clear: both;
+  }
+  border: solid;
+  *zoom: 1;
+}

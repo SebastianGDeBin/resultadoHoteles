@@ -1,18 +1,18 @@
 (function(){
     angular
         .module('hotelsResult')
-        .component('hotelsResultRoot',{
+        .component('hotelResultRoot',{
             controller: HotelResultController,
            templateUrl:'result/hotel-result-root.html'
         });
-    HotelResultController.$inject = ['HotelsResultService'];
+    HotelResultController.$inject = ['HotelResultService'];
 
-    function HotelResultController(HotelsResultService){
+    function HotelResultController(HotelResultService){
 
         var _self = this;
 
         this.$onInit = function(){
-            _self.hotels = HotelsResultService.getHotels();
+            _self.hotels = HotelResultService.getHotels();
         };
 
     }

@@ -113,7 +113,7 @@ gulp.task('watch', ()=> {
 
     gulp.watch(config.files.jade, ['scripts-app']);
     gulp.watch(config.files.js, ['scripts-app']);
-    gulp.watch(config.files.sass, ['style-app']);
+    gulp.watch(config.files.sass, ['styles-app']);
 });
 
 gulp.task('nodemon', () => {
