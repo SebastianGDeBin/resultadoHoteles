@@ -3,8 +3,7 @@ div.descHotel
         p Aca van las imagenes!
     section.dataHotel
         p {{$ctrl.hotel.name}}
-        img(src="estrella.jpg"
-        ng-repeat=("star in $ctrl.stars($ctrl.hotel.stars) track by $index"))
+        a(ng-repeat=("star in $ctrl.stars() track by $index")) ★
     section.dataPrice
         p Precio por habitacion
         p.price

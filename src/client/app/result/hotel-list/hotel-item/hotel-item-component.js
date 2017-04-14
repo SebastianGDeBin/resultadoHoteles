@@ -14,8 +14,8 @@
 
     function HotelItemController(){
 
-        this.stars = function (star) {
-            return Array(parseInt(star));
+        this.stars = function () {
+            return Array(parseInt(this.hotel.stars));
         }
 
     }
