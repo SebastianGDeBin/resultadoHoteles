@@ -6,12 +6,32 @@
   text-align: center;
 }
 .dataHotel{
-  float: left;
-  padding: 15px;
+  padding: 0px 300px;
+  font-weight: lighter;
 }
 
+#priceHotel{
+  font-size: 150%;
+  color: darkorange;
+}
+
+#verHotel{
+  border-radius: 4px;
+  background-color:darkblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 .price{
+  color: darkorange;
+  font-size: 120%;
+}
+.room{
   color: darkorange;
 }
 
@@ -24,5 +44,5 @@
     clear: both;
   }
   border: solid;
-  *zoom: 1;
+  zoom: 1;
 }
