@@ -3,19 +3,24 @@ div.descHotel
         img(src="{{$ctrl.hotel.image}}")
 
     section.dataHotel
-        p {{$ctrl.hotel.name}}
-        a(ng-repeat=("star in $ctrl.stars() track by $index")) ★
-        p.room Solo la habitacion
+        p.nameHotel {{$ctrl.hotel.name}}
+        span.stars(ng-repeat=("star in $ctrl.stars() track by $index"))
+            <i class="fa fa-star" aria-hidden="true"></i>
+        p.room <i class="fa fa-bed" aria-hidden="true"></i> Solo la habitacion
+        p.icons
+            span.icon <i class="fa fa-glass" aria-hidden="true"></i>
+            span.icon <i class="fa fa-check-square-o" aria-hidden="true"></i>
+            span.icon <i class="fa fa-coffee" aria-hidden="true"></i>
+            span.icon <i class="fa fa-wifi" aria-hidden="true"></i>
+
 
     section.dataPrice
         p Precio por habitacion
         p.price
-            strong ARS
-                span#priceHotel {{$ctrl.hotel.price}}
+            span.priceARS ARS
+            span.priceHotel {{$ctrl.hotel.price}}
         p Impuestos y tasas no incluidas
 
         button#verHotel(type='button') Ver Hotel
-        p
-            | Paga en cuotas
-            br
-            a(href='') Paga en destino
+        p Paga en cuotas
+        a(href='') Paga en destino
