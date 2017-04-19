@@ -1,0 +1,29 @@
+.slider {
+  position: relative;
+  .items-ctn{
+    li {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .nav-ctn {
+    position: absolute;
+    width: 100%;
+    top:50%;
+    left: 0;
+    li {
+      position: absolute;
+      cursor: pointer;
+      font-size: 18px;
+      top: 50%;
+
+      .prev{
+        left: 0;
+      }
+      .next{
+        right: 0;
+      }
+    }
+  }
+}

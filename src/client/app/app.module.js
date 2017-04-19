@@ -3,7 +3,8 @@
 
     angular
         .module('appHotelsResult', [
-            'hotelsResult'
+            'hotelsResult',
+            'slider'
         ]);
 
 })();

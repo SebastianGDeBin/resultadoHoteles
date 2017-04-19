@@ -1,5 +1,6 @@
 div.descHotel
     section.imgHotel
+        slider(items="$ctrl.hotel.images")
         img(src="{{$ctrl.hotel.image}}")
 
     section.dataHotel
@@ -12,15 +13,17 @@ div.descHotel
             span.icon <i class="fa fa-check-square-o" aria-hidden="true"></i>
             span.icon <i class="fa fa-coffee" aria-hidden="true"></i>
             span.icon <i class="fa fa-wifi" aria-hidden="true"></i>
-
+        ul
+            li(ng-repeat = "(key,value) in $ctrl.hotel.amenities" ng-class ="$ctrl.getIcon(key)")
 
     section.dataPrice
-        p Precio por habitacion
-        p.price
+        p#prueba Precio por habitacion
+        p#prueba.price
             span.priceARS ARS
             span.priceHotel {{$ctrl.hotel.price}}
-        p Impuestos y tasas no incluidas
+        p#prueba Impuestos y tasas no incluidas
 
         button#verHotel(type='button') Ver Hotel
-        p Paga en cuotas
-        a(href='') Paga en destino
+
+        p#paga Paga en cuotas
+        a#paga(href='') Paga en destino

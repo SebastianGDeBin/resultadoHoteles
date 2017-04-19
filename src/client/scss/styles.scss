@@ -1,49 +1,85 @@
+@import './slider/slider.scss';
+
 body, html{
   background-color: lightgray;
   font-family: sans-serif;
 }
 
+hotel-item{
+}
+
+.liHotels{
+  list-style: none;
+}
 .descHotel{
   background-color: white;
   overflow: hidden;
   zoom: 1;
   box-shadow: 0px 1px 3px 0px rgba(119, 119, 119, 0.3);
-  margin: 30px;
-  padding-top: 8px;
-
+  margin: 8px 0 8px 0;
 }
+
 .imgHotel{
   float: left;
-  padding: 30px;
-  img{
-    width: 250px; height: 200px;
-  }
+  margin: 4px;
+  height: 258px;
+  width: 301px;
+  background: center;
+    img{
+      height: 100%;
+      width: 100%;
+    }
 }
 
 .dataHotel{
-  padding: 35px 5px;
+  line-height:20px;
+  padding: 0.5% 1%;
   font-weight: lighter;
   float: left;
 }
+
 .nameHotel{
   font-weight: bold;
-}
-.icon{
-  margin: 4px;
-  font-size: medium;
-}
-
-.dataPrice{
-  float: right;
-  padding: 15px;
-  border-left-style: dashed ;
-  border-width: 1px;
-  text-align: center;
 }
 
 .stars{
   color: yellow;
   font-size: large;
+}
+
+.room{
+  color: darkorange;
+  font-weight: bold;
+}
+
+.icon{
+  letter-spacing: 10px;
+  font-size: medium;
+}
+
+.dataPrice{
+  float: right;
+  padding: 16px;
+  border-left-style: dashed ;
+  border-width: 0.5px;
+  text-align: center;
+}
+
+.price{
+  line-height:50%;
+  vertical-align: super;
+  color: darkorange;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.priceARS{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#priceHotel{
+
 }
 
 #verHotel{
@@ -58,25 +94,10 @@ body, html{
   cursor: pointer;
 }
 
-.price{
-
-  vertical-align: super;
-  color: darkorange;
-  font-size: 30px;
-  font-weight: bold;
+#prueba{
+  line-height: normal;
 }
 
-.priceARS{
-  font-size: 20px;
-  font-weight: lighter;
+#paga{
+  line-height: normal;
 }
-
-#priceHotel{
-
-}
-
-.room{
-  color: darkorange;
-  font-weight: bold;
-}
-
