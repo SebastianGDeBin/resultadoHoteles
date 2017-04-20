@@ -4,7 +4,9 @@
     angular
         .module('appHotelsResult', [
             'hotelsResult',
-            'slider'
+            'slider',
+            'searchStatus',
+            'filters'
         ]);
 
 })();

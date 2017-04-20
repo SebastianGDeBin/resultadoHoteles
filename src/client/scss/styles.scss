@@ -1,22 +1,50 @@
-@import './slider/slider.scss';
+@import 'slider.scss';
+/**@import 'font.scss';*/
 
 body, html{
   background-color: lightgray;
   font-family: sans-serif;
 }
+main.row{
+  overflow: hidden;
+}
+
+.search-ctn{
+  float: none;
+  margin: 4px;
+  background-color:gray;
+  border: 3px solid;
+  height: 200px;
+}
+
+.filter-ctn{
+  float: left;
+  margin: 4px 0 4px 0;
+  background-color:gray;
+  border: 3px solid;
+  height: 1000px;
+}
+
+.hotel-ctn{
+  float: right;
+}
 
 hotel-item{
 }
-
-.liHotels{
+.filterDiv{
+  margin: 4px 0 4px 0;
+}
+.ulHotels{
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 .descHotel{
   background-color: white;
   overflow: hidden;
   zoom: 1;
   box-shadow: 0px 1px 3px 0px rgba(119, 119, 119, 0.3);
-  margin: 8px 0 8px 0;
+  margin: 4px 0 4px 0;
 }
 
 .imgHotel{
@@ -63,6 +91,9 @@ hotel-item{
   border-left-style: dashed ;
   border-width: 0.5px;
   text-align: center;
+  p,a{
+    line-height: normal;
+  }
 }
 
 .price{
@@ -94,10 +125,29 @@ hotel-item{
   cursor: pointer;
 }
 
-#prueba{
-  line-height: normal;
+/*---Phone---*/
+@media only screen and (max-width: 1023px) {
+  .filter-ctn{
+    width: 100%;
+    height: 100px;
+
+  }
+  .descHotel{
+    .dataHotel{
+      p,span{
+        font-size: 150%;
+      }
+    }
+    .dataPrice{
+      p,a{
+        font-size: 150%;
+      }
+    }
+
+  }
 }
 
-#paga{
-  line-height: normal;
+/*---Desktop---*/
+@media only screen and (min-width: 1024px) {
+
 }

@@ -1,9 +1,13 @@
 .slider {
   position: relative;
+  height: 100%;
+  width: 100%;
   .items-ctn{
     li {
       img {
+        height: 100%;
         width: 100%;
+        position: center;
       }
     }
   }
@@ -13,11 +17,10 @@
     top:50%;
     left: 0;
     li {
+      z-index: 1;
       position: absolute;
       cursor: pointer;
       font-size: 18px;
-      top: 50%;
-
       .prev{
         left: 0;
       }
@@ -25,5 +28,12 @@
         right: 0;
       }
     }
+  }
+}
+
+ul{
+  list-style: none;
+  li{
+    list-style: none;
   }
 }
