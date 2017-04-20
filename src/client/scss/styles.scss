@@ -1,9 +1,9 @@
-@import 'slider.scss';
-/**@import 'font.scss';*/
+@import './slider.scss';
+@import './font.scss';
 
 body, html{
-  background-color: lightgray;
-  font-family: sans-serif;
+  background-color: #F4F4F4;
+  font-family: 'Roboto', sans-serif;
 }
 main.row{
   overflow: hidden;

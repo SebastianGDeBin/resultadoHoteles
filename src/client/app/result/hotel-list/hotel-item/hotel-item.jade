@@ -7,8 +7,7 @@ div.descHotel
         span.stars(ng-repeat=("star in $ctrl.stars() track by $index"))
             <i class="fa fa-star" aria-hidden="true"></i>
         p.room <i class="fa fa-bed" aria-hidden="true"></i> Solo la habitacion
-        p.icons
-        span(ng-repeat = "(key,value) in $ctrl.hotel.amenities" ng-class ="$ctrl.getIcon(key)") {{key}}
+        span.icon(ng-repeat = "(key,value) in $ctrl.hotel.amenities" ng-class ="$ctrl.getIcon(key)")
 
 
     section.dataPrice

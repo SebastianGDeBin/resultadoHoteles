@@ -23,7 +23,9 @@
                 "amenities": {
                     "wifi": "wifi",
                     "tel": "telefono",
-                    "sp": "Spa"}
+                    "sp": "Spa",
+                    "pl":"pool"
+                }
             },
             {
                 "_id":{"$oid":"58cb47efe3dcd6c694f67534"}
