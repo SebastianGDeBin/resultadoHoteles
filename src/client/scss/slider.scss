@@ -2,10 +2,23 @@
   position: relative;
   height: 100%;
   width: 100%;
+  ul{
+    list-style: none;
+    li{
+      list-style: none;
+    }
+  }
   .items-ctn{
+    background-color: #777;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     li {
+      margin-left: -40px;
       img {
-        height: 100%;
+        overflow: hidden;
+        background-size: cover;
+        background-position: 50%;
         width: 100%;
         position: center;
       }
@@ -14,26 +27,37 @@
   .nav-ctn {
     position: absolute;
     width: 100%;
-    top:50%;
+    top: 50%;
     left: 0;
-    li {
+    li{
       z-index: 1;
       position: absolute;
       cursor: pointer;
       font-size: 18px;
-      .prev{
-        left: 0;
-      }
-      .next{
-        right: 0;
-      }
     }
   }
 }
 
-ul{
-  list-style: none;
-  li{
-    list-style: none;
-  }
+.prev{
+  padding: 0px 8px;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+  top: calc(50% - 12px);
+  background-color: white;
+  border-radius: 50%;
+  color: #157ab1;
+  font-size: 18px;
+  left: 8px;
+}
+.next{
+  padding: 0px 8px;
+  right: 8px;
+  position: absolute;
+  z-index: 1;
+  color: #157ab1;
+  top: calc(50% - 12px);
+  background-color: white;
+  border-radius: 50%;
+  font-size: 18px;
 }

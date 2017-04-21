@@ -12,7 +12,13 @@
         var _self = this;
 
         this.$onInit = function(){
-            _self.hotels = HotelResultService.getHotels();
+            HotelResultService.getHotels()
+                .then(function success(response) {
+                    _self.hotels = response;
+                }, function error(error) {
+                    console.log(error);
+                });
+            return _self.hotels;
         };
 
     }
