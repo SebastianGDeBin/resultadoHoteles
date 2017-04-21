@@ -9,7 +9,7 @@ app.use('/static', express.static('./build'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.use('/', require('./hotels-routes'));
+app.use('/', require('./hotelsServer/hotels-routes'));
 
 
 //App Routes
