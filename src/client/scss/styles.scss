@@ -1,5 +1,6 @@
 @import './slider.scss';
 @import './font.scss';
+@import './filters.scss';
 
 body, html{
   background-color: #F4F4F4;
@@ -20,7 +21,6 @@ main.row{
 .filter-ctn{
   float: left;
   margin: 4px 0 4px 0;
-  background-color:gray;
   border: 3px solid;
   height: 1000px;
 }

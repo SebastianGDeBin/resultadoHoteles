@@ -1,0 +1,35 @@
+.filtersTitle{
+  font-size: large;
+  color: #444444;
+  font-weight: bold;
+}
+
+.filter-search-ctn{
+
+  padding: 5%;
+  .filter-header{
+    cursor: pointer;
+    font-size: small;
+    font-weight: bold;
+    color: #1a99df;
+    .arrow{
+
+    }
+  }
+  .filter-container{
+    button{
+      border-radius: 10%;
+      background-color:darkblue;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 110%;
+      cursor: pointer;
+      margin: 0% 3%;
+    }
+    input{
+      border-style: ridge;
+      border-radius: 1%;
+    }
+  }
+}
