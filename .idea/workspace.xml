@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="795566e4-76e6-400c-9376-28239a547530" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/filter/filters.scss" afterPath="$PROJECT_DIR$/src/client/app/filter/filters.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item.html" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item.jade" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/scss/styles.scss" afterPath="$PROJECT_DIR$/src/client/scss/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/scss/font.scss" afterPath="$PROJECT_DIR$/src/client/scss/font.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,48 +24,18 @@
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/scss/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="261">
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter-list.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/filter/filter-list.jade">
+      <file leaf-file-name="font.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/scss/font.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter-stars.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/filter/filter-stars/filter-stars.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filters.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/client/app/filter/filters.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hotel-result-root.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="227">
+              <caret line="312" column="0" lean-forward="true" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/client/app/slider/slider.module.js" />
         <option value="$PROJECT_DIR$/src/client/app/slider/slider-component.js" />
         <option value="$PROJECT_DIR$/build/resultadohoteles.css" />
@@ -170,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root.scss" />
         <option value="$PROJECT_DIR$/src/client/scss/styles.scss" />
         <option value="$PROJECT_DIR$/src/client/app/filter/filters.scss" />
+        <option value="$PROJECT_DIR$/src/client/scss/font.scss" />
       </list>
     </option>
   </component>
@@ -484,12 +448,12 @@
       <workItem from="1493042817147" duration="3275000" />
       <workItem from="1493046111383" duration="211000" />
       <workItem from="1493129262702" duration="4570000" />
-      <workItem from="1493150592646" duration="18053000" />
+      <workItem from="1493150592646" duration="18305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96549000" />
+    <option name="totallyTimeSpent" value="96801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -501,7 +465,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24767801" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34365326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -586,13 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/scss/font.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -879,10 +836,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/filter/filter-list.jade">
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="19">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/filter/filters.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -895,26 +860,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade">
+    <entry file="file://$PROJECT_DIR$/src/client/app/filter/filter-list.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="261">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/filter/filters.scss">
+    <entry file="file://$PROJECT_DIR$/src/client/scss/font.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="312" column="0" lean-forward="true" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
           <folding />
         </state>
       </provider>
