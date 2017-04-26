@@ -21,6 +21,10 @@
             return _self.hotels;
         };
 
+        this.$doCheck = function () {
+            console.log("doCheck")
+        };
+
     }
 
 })();

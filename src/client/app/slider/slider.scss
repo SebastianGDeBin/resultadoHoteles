@@ -4,30 +4,37 @@
   width: 100%;
   ul{
     list-style: none;
+    height: 100%;
     li{
       list-style: none;
     }
   }
   .items-ctn{
-    background-color: #777;
     width: 100%;
     height: 100%;
     background-size: cover;
+    position: relative;
     li {
-      margin-left: -40px;
-      img {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      left: 0;
+      width: 100%;
+      >.image {
+        height: 100%;
         overflow: hidden;
         background-size: cover;
-        background-position: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
         width: 100%;
-        position: center;
+        position: absolute;
       }
     }
   }
   .nav-ctn {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 0;
     left: 0;
     li{
       z-index: 1;
