@@ -1,0 +1,30 @@
+div.filter-ctn
+    p.filter-header(ng-click="") <i class="fa fa-star" aria-hidden="true"></i> Estrellas
+
+    input.check-stars(type='checkbox')
+    label Todas las estrellas
+    br
+
+    input.chech-stars(type='checkbox')
+    span.stars(ng-repeat=("star in [1,2,3,4,5] track by $index"))
+        <i class="fa fa-star" aria-hidden="true"></i>
+    br
+
+    input.chech-stars(type='checkbox')
+    span.stars(ng-repeat=("star in [1,2,3,4] track by $index"))
+        <i class="fa fa-star" aria-hidden="true"></i>
+    br
+
+    input.chech-stars(type='checkbox')
+    span.stars(ng-repeat=("star in [1,2,3] track by $index"))
+        <i class="fa fa-star" aria-hidden="true"></i>
+    br
+
+    input.chech-stars(type='checkbox')
+    span.stars(ng-repeat=("star in [1,2] track by $index"))
+        <i class="fa fa-star" aria-hidden="true"></i>
+    br
+
+    input.chech-stars(type='checkbox')
+    span.stars(ng-repeat=("star in [1] track by $index"))
+        <i class="fa fa-star" aria-hidden="true"></i>

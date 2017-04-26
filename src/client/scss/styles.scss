@@ -1,6 +1,7 @@
 @import './slider.scss';
 @import './font.scss';
 @import './filters.scss';
+@import './search-status.scss';
 
 body, html{
   background-color: #F4F4F4;
@@ -12,16 +13,14 @@ main.row{
 
 .search-ctn{
   float: none;
-  margin: 4px;
-  background-color:gray;
-  border: 3px solid;
-  height: 200px;
+  border-style: ridge;
+  margin: 8px;
+  height: 50px;
 }
 
-.filter-ctn{
+.filters-ctn{
   float: left;
   margin: 4px 0 4px 0;
-  border: 3px solid;
   height: 1000px;
 }
 
@@ -120,7 +119,7 @@ hotel-item{
 
 /*---Phone---*/
 @media only screen and (min-width: 320px) and (max-width:767px){
-  .filter-ctn{
+  .filters-ctn{
     height: 100px;
 
   }
@@ -146,7 +145,7 @@ hotel-item{
 }
 /*---Tablet---*/
 @media only screen and (min-width: 768px) and(max-width: 1023px) {
-  .filter-ctn{
+  .filters-ctn{
     height: 100px;
   }
   .descHotel{
