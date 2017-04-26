@@ -1,0 +1,19 @@
+.row{
+  overflow: hidden;
+  .search-ctn{
+    background-color: white;
+    float: none;
+    border-style: ridge;
+    margin: 8px;
+    height: 50px;
+  }
+  .filters-ctn{
+    background-color: white;
+    float: left;
+  }
+
+  .hotel-ctn{
+    background-color: white;
+    float: right;
+  }
+}
