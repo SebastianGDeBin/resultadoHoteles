@@ -1,7 +1,11 @@
-@import './slider.scss';
+@import '../app/slider/slider';
 @import './font.scss';
-@import './filters.scss';
-@import './search-status.scss';
+@import '../app/filter/filters';
+@import '../app/filter/filter-list.scss';
+@import '../app/filter/filter-price/filter-price.scss';
+@import '../app/filter/filter-search/filter-search.scss';
+@import '../app/filter/filter-stars/filter-stars.scss';
+@import '../app/search-status/search-status';
 
 body, html{
   background-color: #F4F4F4;

@@ -3,7 +3,7 @@
         .module('filters')
         .component('filterList',{
             controller: filterListController,
-            templateUrl:'result/filter/filter-list.html'
+            templateUrl:'filter/filter-list.html'
         });
 
     function filterListController(){

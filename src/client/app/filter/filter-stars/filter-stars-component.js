@@ -8,7 +8,7 @@
             bindings: {
 
             },
-            templateUrl:"result/filter/filter-stars/filter-stars.html"
+            templateUrl:"filter/filter-stars/filter-stars.html"
         });
 
     function filterStarsController(){

@@ -8,7 +8,7 @@
             bindings: {
 
             },
-            templateUrl:"result/filter/filter-search/filter-search.html"
+            templateUrl:"filter/filter-search/filter-search.html"
         });
 
     function filterSearchController(){
