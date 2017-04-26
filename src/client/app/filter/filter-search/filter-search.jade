@@ -2,5 +2,5 @@ div.filter-ctn
     p.filter-header(ng-click="") <i class="fa fa-search" aria-hidden="true"></i> Nombre del hotel
 
     section.filter-container
-        input.search-name(placeholder="Ingrese el nombre del hotel")
-        button.button-search(type='button') Aceptar
+        input.search-value(data-ng-model="$ctrl.searchValue" placeholder="Ingrese el nombre del hotel")
+        button.button-search(ng-click="$ctrl.filterName()" type='button') Aceptar

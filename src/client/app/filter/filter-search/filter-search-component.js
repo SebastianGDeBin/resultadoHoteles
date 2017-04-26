@@ -12,7 +12,13 @@
         });
 
     function filterSearchController(){
+        this.searchValue;
 
+        this.filterName = function () {
+            this.listTodo = this.listTodo.filter(function(item){
+                return id !== item.id;
+            });
+        }
     }
 
 })();

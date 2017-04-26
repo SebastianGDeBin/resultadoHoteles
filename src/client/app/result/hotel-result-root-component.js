@@ -18,12 +18,14 @@
                 }, function error(error) {
                     console.log(error);
                 });
-            return _self.hotels;
+            
         };
 
         this.$doCheck = function () {
             console.log("doCheck")
         };
+
+
 
     }
 
