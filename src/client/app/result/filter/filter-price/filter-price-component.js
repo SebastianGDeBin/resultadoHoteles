@@ -8,7 +8,7 @@
             bindings: {
 
             },
-            templateUrl:"filter/filter-price/filter-price.html"
+            templateUrl:"result/filter/filter-price/filter-price.html"
         });
 
     function filterPriceController(){

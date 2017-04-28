@@ -3,7 +3,7 @@ main.row
     section.search-ctn.col-xs-12.col-sm-12.col-md-12.col-lg-12
         search-status()
     section.filters-ctn.col-xs-12.col-sm-12.col-md-3.col-lg-3
-        filter-list()
+        filter-list(filters='$ctrl.filters')
     section.hotel-ctn.col-xs-12.col-sm-12.col-md-9.col-lg-9
         tr(ng-repeat='player in players | filter:{id: player_id, name:player_name} | filter:ageFilter')
         hotel-list(hotels='$ctrl.hotels')
