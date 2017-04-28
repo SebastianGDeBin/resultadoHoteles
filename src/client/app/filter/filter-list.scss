@@ -1,8 +1,17 @@
 .filterList{
-
+  list-style: none;
+  background-color: lightgray;
+  margin-left: -32px;
+  li{
+    padding-top: 8px;
+  }
 }
 
 .filtersTitle{
+  padding-left: 8px;
+  vertical-align: center;
+  line-height: 24px;
+  background-color: white;
   font-size: large;
   color: #444444;
   font-weight: bold;
