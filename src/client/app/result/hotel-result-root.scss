@@ -5,15 +5,22 @@
     float: none;
     border-style: ridge;
     margin: 8px;
-    height: 50px;
+    height: 100%;
+    display: inline-block;
   }
   .filters-ctn{
     background-color: lightgray;
     float: left;
+    @include respond-to(ph tb){
+      clear: both;
+    }
   }
 
   .hotel-ctn{
     background-color: white;
-    float: right;
+    float: left;
+    @include respond-to(ph tb){
+      clear: both;
+    }
   }
 }

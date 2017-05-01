@@ -1,8 +1,17 @@
+@import "../../scss/mixins.scss";
 .title-search-status{
   font-size: 16px ;
+  margin-bottom: 8px;
 }
 .data-search-cont{
+  margin: -16px;
+
   .data{
+    font-size: 16px;
+    display: inline-block;
+    @include respond-to(ph tb){
+      display: inline-flex;
+    }
     margin:16px;
   }
 }

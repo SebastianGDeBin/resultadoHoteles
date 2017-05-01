@@ -1,4 +1,5 @@
 @import "../../../../scss/mixins";
+
 .descHotel{
   background-color: white;
   overflow: hidden;
@@ -9,12 +10,34 @@
     float: left;
     height: 190px;
     background: center;
+    @include respond-to(ph){
+      width: 100%;
+    }
+    @include respond-to(tb){
+      width:40%;
+    }
+    @include respond-to(dt){
+      width:35%;
+    }
   }
   .dataHotel{
     line-height:20px;
     padding: 0.5% 1%;
     font-weight: lighter;
     float: left;
+    @include respond-to(ph){
+      width: 100%;
+      p,span{
+        font-size: 150%;
+      }
+    }
+    @include respond-to(tb){
+      width: 30%;
+    }
+    @include respond-to(dt){
+      width: 35%;
+    }
+
     .nameHotel{
       font-weight: bold;
     }
@@ -38,6 +61,23 @@
     text-align: center;
     p,a{
       line-height: normal;
+    }
+    @include respond-to(ph){
+      width: 100%;
+      border-style:none;
+      p,a{
+        font-size: 150%;
+      }
+    }
+    @include respond-to(tb){
+      width: 30%;
+      border-left-style: dashed ;
+      border-width: 0.5px;
+    }
+    @include respond-to(dt){
+      width: 30%;
+      border-left-style: dashed ;
+      border-width: 0.5px;
     }
     .price{
       line-height:50%;
@@ -64,41 +104,12 @@
   }
 }
 
-/*---Phone---*/
-@include respond-to(ph){
+@include respond-to(tb){
   .descHotel{
-    .imgHotel{
-      width: 100%;
-    }
     .dataHotel{
-      width: 100%;
-      p,span{
-        font-size: 150%;
-      }
+
     }
     .dataPrice{
-      width: 100%;
-      border-style:none;
-      p,a{
-        font-size: 150%;
-      }
-    }
-
-  }
-}
-
-@media only screen and (min-width: 768px) and(max-width: 1023px) {
-  .descHotel{
-    .imgHotel{
-      width:40%;
-    }
-    .dataHotel{
-      width: 30%;
-    }
-    .dataPrice{
-      width: 30%;
-      border-left-style: dashed ;
-      border-width: 0.5px;
     }
 
   }
@@ -107,16 +118,7 @@
 /*---Desktop---*/
 @media only screen and (min-width: 1024px)and(max-width: 1440px){
   .descHotel{
-    .imgHotel{
-      width:35%;
-    }
-    .dataHotel{
-      width: 35%;
-    }
     .dataPrice{
-      width: 30%;
-      border-left-style: dashed ;
-      border-width: 0.5px;
     }
 
   }
