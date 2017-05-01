@@ -9,20 +9,21 @@
                 hotelsResultCtrl: '^hotelResultRoot'
             },
             bindings: {
-                filters: '<'
+
             },
             templateUrl:"result/filter/filter-search/filter-search.html"
         });
 
     function filterSearchController(){
         var self = this;
+        this.nameSearched;
 
         this.filterByName = function () {
 
             var hotels = this.hotelsResultCtrl.hotels;
 
             var hotelsFiltred = hotels.filter(function (hotel) {
-                return hotel.name.toLowerCase().indexOf(self.filters.searchName) != -1;
+                return hotel.name.toLowerCase().indexOf(self.nameSearched) != -1;
             })
 
 
