@@ -9,6 +9,8 @@
 @import '../app/result/hotel-list/hotel-item/hotel-item.scss';
 @import '../app/result/hotel-list/hotel-list.scss';
 @import '../app/result/hotel-result-root.scss';
+@import './variables.scss';
+@import './mixins.scss';
 
 body, html{
   background-color: lightgray;

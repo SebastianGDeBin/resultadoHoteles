@@ -1,5 +1,5 @@
 div.filter-ctn
-    p.filter-header(ng-click="") <i class="fa fa-search" aria-hidden="true"></i> Precio por noche
+    p.filter-header(ng-click="collapse =! collapse") <i class="fa fa-search" aria-hidden="true"></i> Precio por noche <i class="fa fa-sort-asc" aria-hidden="true"></i>
 
-    section.filter-container
+    section.filter-container(ng-show="!collapse")
         input.price-range(type='range', name='points', min='0', max='10')

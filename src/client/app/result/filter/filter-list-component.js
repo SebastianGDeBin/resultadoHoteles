@@ -11,10 +11,6 @@
 
     function filterListController(){
 
-        this.$onInit = function() {
-            console.log(this.filters)
-        }
-
     }
 
 })();

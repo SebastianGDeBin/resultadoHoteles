@@ -43,9 +43,9 @@ class HotelsServices{
                 "stars":"2",
                 "price":861.0,
                 "images": [
-                    "https://images.clarin.com/2016/12/13/HkH8GlycVl_720x0.jpg",
-                    "https://placehold.it/350x230",
-                    "https://www.cdn.renault.com/content/dam/Renault/AR/modelos/sandero/AR_M_sandero.jpg.ximg.l_4_m.smart.jpg"
+                    "http://www.hotelnuevoboston.com/uploads/cms_apps/imagenes/habitacion-dbs-king-hotel-nuevo-boston.jpg",
+                    "http://www.hotelnuevoboston.com/cache/e3/68/e3680b132bca9c585d897a7d89abc765.jpg",
+                    "https://c.otcdn.com/imglib/hotelfotos/8/218/hotel-husa-nuevo-boston-madrid-025.jpg"
                 ],
                 "amenities": {
                     "wifi": "wifi",
@@ -58,9 +58,9 @@ class HotelsServices{
                 "stars":"1",
                 "price":450.0,
                 "images": [
-                    "https://images.clarin.com/2016/12/13/HkH8GlycVl_720x0.jpg",
-                    "https://placehold.it/350x230",
-                    "https://www.cdn.renault.com/content/dam/Renault/AR/modelos/sandero/AR_M_sandero.jpg.ximg.l_4_m.smart.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/a/ac/Aquarius_Casino_entrance.jpg",
+                    "https://exp.cdn-hotels.com/hotels/1000000/10000/5100/5073/0d160e20_z.jpg",
+                    "https://media-cdn.tripadvisor.com/media/photo-s/05/6e/77/cf/aquarius-casino-resort.jpg"
                 ],
                 "amenities": {
                     "wifi": "wifi",
@@ -73,9 +73,9 @@ class HotelsServices{
                 "stars":"5",
                 "price":3250.0,
                 "images": [
-                    "https://images.clarin.com/2016/12/13/HkH8GlycVl_720x0.jpg",
-                    "https://placehold.it/350x230",
-                    "https://www.cdn.renault.com/content/dam/Renault/AR/modelos/sandero/AR_M_sandero.jpg.ximg.l_4_m.smart.jpg"
+                    "http://static.boydgaming.net/orleanscasino10/assets/shell/orleans-casino-bam-background.jpg",
+                    "https://a1.r9cdn.net/rimg/kimg/ce/c8/259d3caa-154ca44cd81.jpg?crop=true&height=357&width=650",
+                    "http://www.tnetnoc.com/hotelphotos/294/327294/2631759-The-Orleans-Hotel-and-Casino-Recreation-1-DEF.jpg"
                 ],
                 "amenities": {
                     "wifi": "wifi",
@@ -88,9 +88,9 @@ class HotelsServices{
                 "stars":"3",
                 "price":1350.0,
                 "images": [
-                    "https://images.clarin.com/2016/12/13/HkH8GlycVl_720x0.jpg",
-                    "https://placehold.it/350x230",
-                    "https://www.cdn.renault.com/content/dam/Renault/AR/modelos/sandero/AR_M_sandero.jpg.ximg.l_4_m.smart.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/a/ac/Aquarius_Casino_entrance.jpg",
+                    "https://exp.cdn-hotels.com/hotels/1000000/10000/5100/5073/0d160e20_z.jpg",
+                    "https://media-cdn.tripadvisor.com/media/photo-s/05/6e/77/cf/aquarius-casino-resort.jpg"
                 ],
                 "amenities": {
                     "wifi": "wifi",
@@ -103,9 +103,9 @@ class HotelsServices{
                 "stars":"4",
                 "price":3000.0,
                 "images": [
-                    "https://images.clarin.com/2016/12/13/HkH8GlycVl_720x0.jpg",
-                    "https://placehold.it/350x230",
-                    "https://www.cdn.renault.com/content/dam/Renault/AR/modelos/sandero/AR_M_sandero.jpg.ximg.l_4_m.smart.jpg"
+                    "http://eb5d278cc9c6fd715f58-c38ebb118e22ffeddd12a7b4594f793f.r7.cf1.rackcdn.com/XLGallery/pool.jpg",
+                    "http://www.starwoodhotels.com/pub/media/1991/she1991ex.123043_md.jpg",
+                    "https://httpsak-a.akamaihd.net/1479192018001/1479192018001_5256870508001_5256869637001-vs.jpg?pubId=1479192018001"
                 ],
                 "amenities": {
                     "wifi": "wifi",
