@@ -113,9 +113,25 @@ class HotelsServices{
                     "sp": "Spa"}
             }
         ];
+        _self.filters = {
+            "name" : "",
+            "targetName" : "",
+            "price":{
+                "priceMin" : 200,
+                "priceMax": 2500,
+            },
+            "stars":{
+                "five": true,
+                "four": false,
+                "three" : false,
+                "two" : false,
+                "one" : false
+            },
+        };
 
         return new Promise(function(resolve, reject){
-            resolve(_self.listHotel)
+            resolve({"listHotel":_self.listHotel,
+                "filters":_self.filters})
         })
 
     }

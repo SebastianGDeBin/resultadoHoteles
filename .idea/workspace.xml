@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="795566e4-76e6-400c-9376-28239a547530" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-list-component.js" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-list-component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-list.html" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-list.jade" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-list.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.html" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.html" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/hotelsServer/hotels-services.js" afterPath="$PROJECT_DIR$/src/server/hotelsServer/hotels-services.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,28 +34,68 @@
       <file leaf-file-name="hotel-result-root-component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="342">
+              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter-stars-component.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hotel-result-root.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter-list.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-list.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter-list-component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-list-component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter-stars-component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="-3">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter-stars.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="filter-stars.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="34" column="131" lean-forward="false" selection-start-line="34" selection-start-column="131" selection-end-line="34" selection-end-column="131" />
+            <state relative-caret-position="209">
+              <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotel-item.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -55,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dataPrice</find>
       <find>datapr</find>
       <find>build</find>
       <find>watch</find>
@@ -85,6 +134,7 @@
       <find>rzslider</find>
       <find>after</find>
       <find>hotels</find>
+      <find>filterStar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,9 +166,7 @@
         <option value="$PROJECT_DIR$/src/client/app/search-status/search-status-component.js" />
         <option value="$PROJECT_DIR$/src/client/app/search-status/search-status.module.js" />
         <option value="$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-list.jade" />
-        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-list.jade" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/server/hotelsServer/hotels-services.js" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-list.scss" />
         <option value="$PROJECT_DIR$/src/client/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-search/filter-search.jade" />
@@ -127,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/client/app/search-status/search-status.jade" />
         <option value="$PROJECT_DIR$/src/client/app/search-status/search-status.scss" />
         <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root.scss" />
-        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-list-component.js" />
         <option value="$PROJECT_DIR$/src/client/app/app.module.js" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
@@ -136,14 +183,17 @@
         <option value="$PROJECT_DIR$/src/client/scss/styles.scss" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.jade" />
         <option value="$PROJECT_DIR$/src/client/index.html" />
-        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.scss" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-search/filter-search-component.js" />
-        <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade" />
-        <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filters.scss" />
-        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade" />
+        <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js" />
+        <option value="$PROJECT_DIR$/src/server/hotelsServer/hotels-services.js" />
+        <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade" />
+        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-list-component.js" />
+        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-list.jade" />
+        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js" />
+        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade" />
       </list>
     </option>
   </component>
@@ -354,41 +404,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resultadoHoteles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resultadoHoteles" />
+              <option name="myItemId" value="hotel-list" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter-stars" />
+              <option name="myItemId" value="hotel-item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,12 +543,12 @@
       <workItem from="1493383515511" duration="1803000" />
       <workItem from="1493386343329" duration="23705000" />
       <workItem from="1493684123459" duration="762000" />
-      <workItem from="1493730297558" duration="27244000" />
+      <workItem from="1493730297558" duration="32608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156245000" />
+    <option name="totallyTimeSpent" value="161609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -565,20 +585,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/app/search-status/search-status-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/result.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/search-status/search-status.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -692,14 +698,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-list-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,14 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -897,34 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/hotelsServer/hotels-services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-list-component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-list.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -945,26 +911,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade">
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="131" lean-forward="false" selection-start-line="34" selection-start-column="131" selection-end-line="34" selection-end-column="131" />
+        <state relative-caret-position="342">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js">
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="95">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/hotelsServer/hotels-services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-list-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-list.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-list/hotel-item/hotel-item.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="-3">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding />
         </state>
       </provider>

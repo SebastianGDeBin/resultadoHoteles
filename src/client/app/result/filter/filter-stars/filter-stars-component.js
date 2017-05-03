@@ -9,7 +9,7 @@
                 hotelsResultCtrl: '^hotelResultRoot'
             },
             bindings: {
-
+                filterStar:"<"
             },
             templateUrl:"result/filter/filter-stars/filter-stars.html"
         });
@@ -18,6 +18,15 @@
 
         let self = this;
         this.stars = [];
+        this.filterStars = [1,2,3,4,5];
+
+        this.numbrerStars = function (number) {
+            return Array(parseInt(number));
+        }
+
+        this.$onInit  = function () {
+            console.log(this.filterStar);
+        };
 
         this.allStars = function () {
             this.hotelsResultCtrl.hotelsFiltered = this.hotelsResultCtrl.hotels;
