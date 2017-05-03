@@ -26,13 +26,21 @@
         this.filterByStars = function (star) {
             let hotels = this.hotelsResultCtrl.hotels;
 
-            self.stars.push(star);
+            if(self.stars.indexOf(star)>-1){
+                self.stars.splice(self.stars.indexOf(star),1);
+            }else{
+                self.stars.push(star);
+            }
 
-            this.hotelsResultCtrl.hotelsFiltered = hotels.filter(function (hotel) {
-                if(self.stars.indexOf(hotel.stars)>-1){
-                    return hotel;
-                }
-            });
+            if(self.stars.length ==! 0){
+                this.hotelsResultCtrl.hotelsFiltered = hotels.filter(function (hotel) {
+                    if(self.stars.indexOf(hotel.stars)>-1){
+                        return hotel;
+                    }
+                });
+            }else{
+                self.allStars()
+            }
 
         };
     }

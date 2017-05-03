@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="795566e4-76e6-400c-9376-28239a547530" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-price/filter-price.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-search/filter-search-component.js" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-search/filter-search-component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.html" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/filter/filters.scss" afterPath="$PROJECT_DIR$/src/client/app/result/filter/filters.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.html" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade" afterPath="$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +34,8 @@
       <file leaf-file-name="filter-stars-component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="241">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -150,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root.jade" />
         <option value="$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filters.scss" />
-        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js" />
         <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade" />
+        <option value="$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js" />
       </list>
     </option>
   </component>
@@ -531,12 +523,12 @@
       <workItem from="1493383515511" duration="1803000" />
       <workItem from="1493386343329" duration="23705000" />
       <workItem from="1493684123459" duration="762000" />
-      <workItem from="1493730297558" duration="26024000" />
+      <workItem from="1493730297558" duration="27244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155025000" />
+    <option name="totallyTimeSpent" value="156245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -953,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -969,10 +953,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/result/hotel-result-root-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/result/filter/filter-stars/filter-stars-component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="241">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
