@@ -2,37 +2,37 @@ div.filter-ctn
     p.filter-header(ng-click="collapse =! collapse") <i class="fa fa-star" aria-hidden="true"></i> Estrellas <i class="fa fa-sort-asc" aria-hidden="true"></i>
 
     section.filter-container(ng-show="!collapse")
-        input.check-stars(type='checkbox')
+        input.check-stars(type='checkbox' ng-click="$ctrl.allStars()" ng-change="checked.true = checked.false ? '' : checked.false" ng-model="checked.false")
         label.all-stars Todas las estrellas
 
 
         div.check-ctn
-            input.check-stars(type='checkbox')
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars('5')" ng-model="checked.true" ng-checked="checked.true" )
             label.stars-ctn
                 span.star(ng-repeat=("star in [1,2,3,4,5] track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>
 
 
         div.check-ctn
-            input.check-stars(type='checkbox')
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars('4')" ng-model="checked.true" ng-checked="checked.true")
             label.stars-ctn
                 span.star(ng-repeat=("star in [1,2,3,4] track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>
 
         div.check-ctn
-            input.check-stars(type='checkbox')
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars('3')" ng-model="checked.true" ng-checked="checked.true")
             label.stars-ctn
                 span.star(ng-repeat=("star in [1,2,3] track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>
 
         div.check-ctn
-            input.check-stars(type='checkbox')
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars('2')" ng-model="checked.true" ng-checked="checked.true")
             label.stars-ctn
                 span.star(ng-repeat=("star in [1,2] track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>
 
         div.check-ctn
-            input.check-stars(type='checkbox')
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars('1')" ng-model="checked.true" ng-checked="checked.true")
             label.stars-ctn
                 span.star(ng-repeat=("star in [1] track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>
