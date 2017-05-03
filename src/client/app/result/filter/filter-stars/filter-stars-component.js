@@ -18,9 +18,9 @@
 
         let self = this;
         this.stars = [];
-        this.filterStars = [1,2,3,4,5];
+        this.filterStars = ["1","2","3","4","5"];
 
-        this.numbrerStars = function (number) {
+        this.numberStars = function (number) {
             return Array(parseInt(number));
         }
 
@@ -41,14 +41,17 @@
                 self.stars.push(star);
             }
 
-            if(self.stars.length ==! 0){
-                this.hotelsResultCtrl.hotelsFiltered = hotels.filter(function (hotel) {
-                    if(self.stars.indexOf(hotel.stars)>-1){
-                        return hotel;
-                    }
-                });
-            }else{
-                self.allStars()
+            console.log("array stars")
+            console.log(self.stars)
+
+            this.hotelsResultCtrl.hotelsFiltered = hotels.filter(function (hotel) {
+                if(self.stars.indexOf(hotel.stars)>-1){
+                    return hotel;
+                }
+            });
+
+            if(self.stars.length == 0){
+                self.allStars();
             }
 
         };
