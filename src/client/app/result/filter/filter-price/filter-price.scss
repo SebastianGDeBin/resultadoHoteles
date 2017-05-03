@@ -1,3 +1,23 @@
-.price-range{
+.filter-container{
 
+  .rzslider {
+    .rz-pointer {
+      background-color: white;
+      border-style: solid;
+      border-width: 0.5px;
+      border-color: gray;
+      border-radius: 5px;
+      width: 12px;
+      content: "";
+    }
+    .rz-pointer::after{
+
+    }
+    .rz-bar{
+      height: 8px;
+    }
+    .rz-selection{
+      background: gray;
+    }
+  }
 }

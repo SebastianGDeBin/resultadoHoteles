@@ -6,7 +6,8 @@
             'hotelsResult',
             'slider',
             'searchStatus',
-            'filters'
+            'filters',
+            'rzModule'
         ]);
 
 })();

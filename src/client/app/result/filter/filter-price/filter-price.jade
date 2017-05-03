@@ -2,4 +2,5 @@ div.filter-ctn
     p.filter-header(ng-click="collapse =! collapse") <i class="fa fa-search" aria-hidden="true"></i> Precio por noche <i class="fa fa-sort-asc" aria-hidden="true"></i>
 
     section.filter-container(ng-show="!collapse")
-        input.price-range(type='range', name='points', min='0', max='10')
+        rzslider(rz-slider-model='$ctrl.slider.minValue', rz-slider-high='$ctrl.slider.maxValue', rz-slider-options='$ctrl.slider.options')
+
