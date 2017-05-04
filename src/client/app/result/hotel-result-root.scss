@@ -19,6 +19,8 @@
   .hotel-ctn{
     background-color: white;
     float: left;
+    padding-left:4px;
+    padding-top: 4px;
     @include respond-to(ph tb){
       clear: both;
     }
