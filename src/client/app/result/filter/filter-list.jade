@@ -1,8 +1,9 @@
 ul.filterList
     li.filtersTitle Filtrar
+        span.delet-filter(ng-click="$ctrl.removeFilters()") <i class="fa fa-times" aria-hidden="true"></i> Eliminar filtros
     li
-        filter-search()
+        filter-search(filters = '$ctrl.filters')
     li
-        filter-price()
+        filter-price(filters = '$ctrl.filters')
     li
-        filter-stars(filterStar = "$ctrl.filters")
+        filter-stars(filters = '$ctrl.filters')

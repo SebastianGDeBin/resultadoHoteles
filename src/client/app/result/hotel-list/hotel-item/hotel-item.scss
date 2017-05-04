@@ -8,7 +8,7 @@
   margin: 4px 0 4px 0;
   .imgHotel{
     float: left;
-    height: 190px;
+    height: 208px;
     background: center;
     @include respond-to(ph){
       width: 100%;
@@ -59,8 +59,12 @@
     float: right;
     padding: 16px;
     text-align: center;
+    .price-hab,.imp-tasas{
+      line-height: 18px;
+
+    }
     p,a{
-      line-height: normal;
+      line-height: 16px;
     }
     @include respond-to(ph){
       width: 100%;
@@ -83,10 +87,10 @@
       line-height:50%;
       vertical-align: super;
       color: darkorange;
-      font-size: 40px;
+      font-size: 32px;
       font-weight: bold;
       .priceARS{
-        font-size: 20px;
+        font-size: 24px;
         font-weight: lighter;
       }
     }
@@ -95,31 +99,11 @@
       background-color:darkblue;
       border: none;
       color: white;
-      padding: 15px 60px;
+      padding: 8px 64px;
       text-align: center;
       font-size: 16px;
       margin: 6px 2px;
       cursor: pointer;
     }
-  }
-}
-
-@include respond-to(tb){
-  .descHotel{
-    .dataHotel{
-
-    }
-    .dataPrice{
-    }
-
-  }
-}
-
-/*---Desktop---*/
-@media only screen and (min-width: 1024px)and(max-width: 1440px){
-  .descHotel{
-    .dataPrice{
-    }
-
   }
 }

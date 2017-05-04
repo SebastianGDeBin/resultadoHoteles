@@ -16,14 +16,13 @@
                 .then(function success(response) {
                     _self.hotels = response.listHotel;
                     _self.hotelsFiltered = response.listHotel;
-                    _self.filters = response.filters;
+                    //_self.filters = response.filters;
                 }, function error(error) {
                     console.log(error);
                 });
 
             this.filters = {
-                "name":" ",
-                "searchName":" ",
+                "nameSearched":"",
                 "price": {
                     "priceMin": 200,
                     "priceMax": 3500
@@ -37,7 +36,7 @@
                     "one": false
                 }
             }
-            
+
         };
     }
 

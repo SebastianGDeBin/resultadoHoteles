@@ -4,6 +4,13 @@
   padding-left: 8px;
   li{
     padding-top: 8px;
+    .delet-filter{
+      float:right;
+      font-size: 12px;
+      margin-right: 8px;
+      cursor: pointer;
+      color: #1a99df;
+    }
   }
 }
 

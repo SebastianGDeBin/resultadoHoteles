@@ -2,12 +2,12 @@ div.filter-ctn
     p.filter-header(ng-click="collapse =! collapse") <i class="fa fa-star" aria-hidden="true"></i> Estrellas <i class="fa fa-sort-asc" aria-hidden="true"></i>
 
     section.filter-container(ng-show="!collapse")
-        input.check-stars(type='checkbox' ng-click="$ctrl.allStars()" ng-change="checked.true = checked.false ? '' : checked.false" ng-model="checked.false")
+        input.check-stars(type='checkbox' ng-click="$ctrl.allStars()")
         label.all-stars Todas las estrellas
 
 
         div.check-ctn(ng-repeat=("stars in $ctrl.filterStars | orderBy:'number':true "))
-            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars(stars)" ng-model="checked.false" ng-checked="checked.true" )
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars(stars)" )
             label.stars-ctn
                 span.star(ng-repeat=("star in $ctrl.numberStars(stars) track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>

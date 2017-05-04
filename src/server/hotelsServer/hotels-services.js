@@ -114,11 +114,10 @@ class HotelsServices{
             }
         ];
         _self.filters = {
-            "name" : "",
-            "targetName" : "",
+            "nameSearched" : "",
             "price":{
-                "priceMin" : 200,
-                "priceMax": 2500,
+                "priceMin" : 0,
+                "priceMax": 3500,
             },
             "stars":{
                 "five": true,
