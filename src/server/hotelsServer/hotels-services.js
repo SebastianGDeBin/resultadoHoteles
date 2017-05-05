@@ -119,13 +119,7 @@ class HotelsServices{
                 "priceMin" : 0,
                 "priceMax": 3500,
             },
-            "stars":{
-                "five": true,
-                "four": false,
-                "three" : false,
-                "two" : false,
-                "one" : false
-            },
+            "stars":[],
         };
 
         return new Promise(function(resolve, reject){

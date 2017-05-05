@@ -12,12 +12,24 @@
                 filters:'<'
             },
             templateUrl:"result/filter/filter-stars/filter-stars.html"
-        });
+        }).filter('filterStars',function () {
+
+        return function (hotels,stars) {
+            return hotels.filter(function (hotel) {
+                if(stars.length == 0){
+                    return true
+                }else{
+                    return stars.indexOf(hotel.stars)>-1;
+                }
+            })
+
+        }
+    });
 
     function filterStarsController(){
 
         let self = this;
-        this.stars = [];
+
         this.filterStars = ["1","2","3","4","5"];
 
         this.numberStars = function (number) {
@@ -34,25 +46,11 @@
         };
 
         this.filterByStars = function (star) {
-            let hotels = this.hotelsResultCtrl.hotels;
-
-            if(self.stars.indexOf(star)>-1){
-                self.stars.splice(self.stars.indexOf(star),1);
+            if(self.filters.stars.indexOf(star)>-1){
+                self.filters.stars.splice(self.filters.stars.indexOf(star),1);
             }else{
-                self.stars.push(star);
+                self.filters.stars.push(star);
             }
-
-            console.log("array stars")
-            console.log(self.stars)
-
-            this.hotelsResultCtrl.hotelsFiltered = hotels.filter(function (hotel) {
-                return self.stars.indexOf(hotel.stars)>-1
-            });
-
-            if(self.stars.length == 0){
-                self.allStars();
-            }
-
         };
     }
 
