@@ -3,10 +3,14 @@
   .search-ctn{
     background-color: white;
     float: none;
-    border-style: ridge;
-    margin: 8px;
+    border: solid 0.1px;
+    border-color: darkgray;
+    margin: 0px 24px 8px 24px;
     height: 100%;
     display: inline-block;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   .filters-ctn{
     background-color: lightgray;

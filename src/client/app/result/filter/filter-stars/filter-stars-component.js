@@ -46,9 +46,7 @@
             console.log(self.stars)
 
             this.hotelsResultCtrl.hotelsFiltered = hotels.filter(function (hotel) {
-                if(self.stars.indexOf(hotel.stars)>-1){
-                    return hotel;
-                }
+                return self.stars.indexOf(hotel.stars)>-1
             });
 
             if(self.stars.length == 0){

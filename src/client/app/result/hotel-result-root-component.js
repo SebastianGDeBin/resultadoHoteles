@@ -16,26 +16,13 @@
                 .then(function success(response) {
                     _self.hotels = response.listHotel;
                     _self.hotelsFiltered = response.listHotel;
-                    //_self.filters = response.filters;
+                    console.log("filtros server")
+                    _self.filters = response.filters;
+                    console.log(_self.filters);
                 }, function error(error) {
                     console.log(error);
                 });
 
-            this.filters = {
-                "nameSearched":"",
-                "price": {
-                    "priceMin": 200,
-                    "priceMax": 3500
-                },
-                "stars": {
-                    "allStars":true,
-                    "five": false,
-                    "four": false,
-                    "three": false,
-                    "two": false,
-                    "one": false
-                }
-            }
 
         };
     }
