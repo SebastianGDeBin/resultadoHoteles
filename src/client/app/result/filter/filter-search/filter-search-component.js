@@ -4,6 +4,7 @@
     angular
         .module('filters')
         .component('filterSearch',{
+            controller: filterSearchController,
             bindings: {
                 filters: '<'
             },
@@ -16,5 +17,13 @@
 
             }
     })
+    function filterSearchController(){
+        var self = this;
+        self.nameSearched;
+
+        this.filterByName = function () {
+            self.filters.nameSearched = self.nameSearched;
+        }
+    }
 
 })();
