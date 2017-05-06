@@ -6,8 +6,8 @@ div.filter-ctn
         label.all-stars Todas las estrellas
 
 
-        div.check-ctn(ng-repeat=("stars in $ctrl.filterStars | orderBy:'number':true "))
-            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars(stars)" )
+        div.check-ctn(ng-repeat=("star1 in $ctrl.filterStars | orderBy:'number':true "))
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars(star1)" ng-checked="$ctrl.filters.starsCheck.star1")
             label.stars-ctn
-                span.star(ng-repeat=("star in $ctrl.numberStars(stars) track by $index"))
+                span.star(ng-repeat=("star in $ctrl.numberStars(star1) track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>

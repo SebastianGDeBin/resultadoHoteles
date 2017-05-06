@@ -19,10 +19,10 @@
     });
     function filterSearchController(){
         var self = this;
-        self.nameSearched;
+
 
         this.filterByName = function () {
-            self.filters.nameSearched = self.nameSearched;
+            self.filters.nameSearched = self.filters.nameDefault;
         }
     }
 

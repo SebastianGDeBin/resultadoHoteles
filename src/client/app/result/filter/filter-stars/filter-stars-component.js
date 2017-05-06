@@ -32,13 +32,12 @@
 
         this.filterStars = ["1","2","3","4","5"];
 
+        this.checked = function (stars) {
+            return this.filters.starsCheck.stars;
+
+        }
         this.numberStars = function (number) {
             return Array(parseInt(number));
-        }
-
-        this.$onInit  = function () {
-            console.log("llegan las estrellas")
-            console.log(self.filters);
         };
 
         this.allStars = function () {

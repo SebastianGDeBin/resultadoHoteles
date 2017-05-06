@@ -13,13 +13,9 @@
 
     function filterListController(){
         var self = this;
-        this.$onInit = function () {
-            console.log("list")
-            console.log(self.filters)
-        }
 
         this.removeFilters = function () {
-            this.hotelsResultCtrl.$onInit();
+            self.hotelsResultCtrl.$onInit();
         }
 
     }
