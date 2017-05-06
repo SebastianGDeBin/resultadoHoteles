@@ -12,34 +12,19 @@
                 hotelsResultCtrl: '^hotelResultRoot'
             },
             templateUrl:"result/filter/filter-price/filter-price.html"
-        });
+        }).filter('filterPrice',function () {
+        return function (hotels,price) {
+            return hotels.filter(function (hotel) {
+                return (hotel.price >= price.priceMin && hotel.price <= price.priceMax);
+            })
+
+        }
+    });
 
     function filterPriceController(){
-        var self = this;
-
-        this.$onInit = function () {
-            console.log("llegan los precios")
-            console.log(self.filters)
-        }
-
-        this.filterByPrice = function () {
-            var hotels = self.hotelsResultCtrl.hotels;
-
-            self.hotelsResultCtrl.hotelsFiltered = hotels.filter(function (hotel) {
-                if (hotel.price >= self.filters.price.priceMin && hotel.price <=self.filters.price.priceMax){
-                    return hotel
-                }
-            });
-        };
-
         this.slider = {
-            value:150,
             options: {
-                floor: 0,
-                noSwitching: true,
                 pushRange: true,
-                onChange: this.filterByPrice
-
             }
         };
 

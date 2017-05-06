@@ -16,7 +16,7 @@
                 })
 
             }
-    })
+    });
     function filterSearchController(){
         var self = this;
         self.nameSearched;
