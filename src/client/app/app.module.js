@@ -7,6 +7,7 @@
             'slider',
             'searchStatus',
             'breadcrumb',
+            'map',
             'filters',
             'rzModule'
         ]);

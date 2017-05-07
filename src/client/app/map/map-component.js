@@ -2,6 +2,6 @@
     angular
         .module('filters')
         .component('map',{
-            templateUrl:'result/filter/map/map.html'
+            templateUrl:'map/map.html'
         });
 })();
