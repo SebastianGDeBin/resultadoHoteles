@@ -30,10 +30,6 @@
 
         let self = this;
 
-        this.checked = function (stars) {
-            return this.filters.starsCheck.stars;
-
-        }
         this.numberStars = function (number) {
             return Array(parseInt(number));
         };
