@@ -100,8 +100,12 @@ gulp.task('bundle', ['watch'], () => {
         .pipe(gulp.dest(config.build));
 });
 
+gulp.task('fonts', function () {
+    return gulp.src('./src/client/scss/*.ttf')
+        .pipe(gulp.dest(config.build));
+});
 
-gulp.task('default', ['build', 'inject','nodemon']);
+gulp.task('default', ['build', 'inject','fonts','nodemon']);
 
 /**
  * Build!!!!
