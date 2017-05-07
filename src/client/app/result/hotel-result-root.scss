@@ -1,7 +1,10 @@
 .row{
   overflow: hidden;
+  .breadcrumb-ctn{
+    margin-bottom: -16px;
+  }
   .search-ctn{
-    background-color: white;
+    background-color: #F4F4F4;
     float: none;
     border: solid 0.1px;
     border-color: darkgray;
@@ -13,7 +16,7 @@
     padding-bottom: 16px;
   }
   .filters-ctn{
-    background-color: lightgray;
+    background-color: #F4F4F4;
     float: left;
     @include respond-to(ph tb){
       clear: both;
@@ -21,7 +24,7 @@
   }
 
   .hotel-ctn{
-    background-color: white;
+    background-color: #F4F4F4;
     float: left;
     padding-left:4px;
     padding-top: 4px;

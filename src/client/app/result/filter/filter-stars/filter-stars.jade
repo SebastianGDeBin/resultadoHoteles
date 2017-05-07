@@ -4,10 +4,12 @@ div.filter-ctn
     section.filter-container(ng-show="!collapse")
         input.check-stars(type='checkbox' ng-click="$ctrl.allStars()")
         label.all-stars Todas las estrellas
+            span.number-hotels ({{$ctrl.filters.numberHotels[0]}})
 
 
-        div.check-ctn(ng-repeat=("star1 in $ctrl.filterStars | orderBy:'number':true "))
-            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars(star1)" ng-checked="$ctrl.filters.starsCheck.star1")
+        div.check-ctn(ng-repeat=("star1 in $ctrl.filters.numberStars | orderBy:'number':true "))
+            input.check-stars(type='checkbox' ng-click="$ctrl.filterByStars(star1)")
             label.stars-ctn
                 span.star(ng-repeat=("star in $ctrl.numberStars(star1) track by $index"))
                     <i class="fa fa-star" aria-hidden="true"></i>
+                span.number-hotels ({{$ctrl.filters.numberHotels[star1]}})

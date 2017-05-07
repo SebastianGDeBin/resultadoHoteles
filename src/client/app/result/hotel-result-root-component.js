@@ -10,15 +10,12 @@
     function HotelResultController(HotelResultService){
 
         var _self = this;
-        _self.hotelsFiltered = [];
+        _self.hotels = [];
         this.$onInit = function(){
             HotelResultService.getHotels()
                 .then(function success(response) {
                     _self.hotels = response.listHotel;
-                    _self.hotelsFiltered = response.listHotel;
-                    console.log("filtros server")
                     _self.filters = response.filters;
-                    console.log(_self.filters);
                 }, function error(error) {
                     console.log(error);
                 });

@@ -28,7 +28,7 @@ class HotelsServices{
                 "stars":"4",
                 "price":2145.0,
                 "images": [
-                    "http://www.petitpalace.com/cache/bc/8c/bc8c95bc1e825d1da55da2c5b5e3e3b7.jpg",
+                    "https://d.otcdn.com/imglib/hotelfotos/8/192/hotel-petit-palace-san-bernardo-madrid-062.jpg",
                     "https://d.otcdn.com/imglib/hotelfotos/8/192/hotel-petit-palace-san-bernardo-madrid-062.jpg",
                     "https://photo1.hotelsclick.com/madrid/26711/grande/petit-palace-san-bernardo-habitacion.1.jpg"
                 ],
@@ -121,13 +121,8 @@ class HotelsServices{
                 "priceMax": 3500,
             },
             "stars":[],
-            "starsCheck":{
-                "5": false,
-                "4": false,
-                "3": false,
-                "2": false,
-                "1": false,
-            }
+            "numberStars": ["1","2","3","4","5"],
+            "numberHotels": ["7","1","1","2","2","1"]
         };
 
         return new Promise(function(resolve, reject){

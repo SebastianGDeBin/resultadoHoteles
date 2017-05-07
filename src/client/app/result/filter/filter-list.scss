@@ -1,25 +1,28 @@
-.filterList{
+.filterList {
   list-style: none;
-  background-color: lightgray;
+  background-color: #F4F4F4;
   padding-left: 8px;
-  li{
+  li {
     padding-top: 8px;
-    .delet-filter{
-      float:right;
+    .delet-filter {
+      float: right;
       font-size: 12px;
       margin-right: 8px;
       cursor: pointer;
       color: #1a99df;
     }
   }
-}
-
-.filtersTitle{
-  padding-left: 8px;
-  vertical-align: center;
-  line-height: 32px;
-  background-color: white;
-  font-size: large;
-  color: #444444;
-  font-weight: bold;
+  .map-ctn{
+    width: 100%;
+    height: 100%;
+  }
+  .filtersTitle {
+    padding-left: 8px;
+    vertical-align: center;
+    line-height: 32px;
+    background-color: #F4F4F4;
+    font-size: large;
+    color: #444444;
+    font-weight: bold;
+  }
 }

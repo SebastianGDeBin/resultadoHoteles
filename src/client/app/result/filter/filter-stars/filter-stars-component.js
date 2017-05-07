@@ -30,8 +30,6 @@
 
         let self = this;
 
-        this.filterStars = ["1","2","3","4","5"];
-
         this.checked = function (stars) {
             return this.filters.starsCheck.stars;
 
@@ -41,7 +39,7 @@
         };
 
         this.allStars = function () {
-            this.hotelsResultCtrl.hotelsFiltered = this.hotelsResultCtrl.hotels;
+            self.filters.stars = [];
         };
 
         this.filterByStars = function (star) {
