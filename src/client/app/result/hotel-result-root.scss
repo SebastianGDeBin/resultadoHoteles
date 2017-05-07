@@ -18,18 +18,11 @@
   .filters-ctn{
     background-color: #F4F4F4;
     float: left;
-    @include respond-to(ph tb){
-      clear: both;
-    }
   }
-
   .hotel-ctn{
     background-color: #F4F4F4;
     float: left;
     padding-left:4px;
     padding-top: 4px;
-    @include respond-to(ph tb){
-      clear: both;
-    }
   }
 }

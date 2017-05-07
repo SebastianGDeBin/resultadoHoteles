@@ -1,18 +1,20 @@
-.check-stars{
-  text-align: center;
-}
-
-.stars-ctn{
-  margin-left: 6px;
-  .star{
-    margin: 0px 2px;
-    color: #FDBA12;
-  font-size: small;
+.check-ctn{
+  .check-stars{
+    text-align: center;
   }
-}
-.number-hotels{
-  margin-left: 8px;
-  font-size: small;
-  text-align: center;
-  vertical-align: center;
+
+  .stars-ctn{
+    margin-left: 6px;
+    .star{
+      margin: 0px 2px;
+      color: #FDBA12;
+    font-size: small;
+    }
+    .number-hotels{
+      margin-left: 8px;
+      font-size: small;
+      text-align: center;
+      vertical-align: center;
+    }
+  }
 }

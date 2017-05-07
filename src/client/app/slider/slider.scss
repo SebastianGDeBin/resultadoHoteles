@@ -2,19 +2,14 @@
   position: relative;
   height: 100%;
   width: 100%;
-  ul{
-    list-style: none;
-    height: 100%;
-    li{
-      list-style: none;
-    }
-  }
   .items-ctn{
     width: 100%;
     height: 100%;
     background-size: cover;
     position: relative;
-    li {
+    list-style: none;
+    height: 100%;
+    .items {
       position: absolute;
       height: 100%;
       top: 0;
@@ -36,35 +31,31 @@
     width: 100%;
     top: 0;
     left: 0;
-    li{
-      z-index: 1;
-      position: absolute;
-      cursor: pointer;
-      font-size: 18px;
-    }
+    list-style: none;
+    height: 100%;
+      .prev{
+        padding: 0px 8px;
+        left: 8px;
+        position: absolute;
+        z-index: 1;
+        top: calc(50% - 12px);
+        background-color: white;
+        border-radius: 50%;
+        color: #157ab1;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .next{
+        padding: 0px 8px;
+        right: 8px;
+        position: absolute;
+        z-index: 1;
+        color: #157ab1;
+        top: calc(50% - 12px);
+        background-color: white;
+        border-radius: 50%;
+        font-size: 18px;
+        cursor: pointer;
+      }
   }
-}
-
-.prev{
-  padding: 0px 8px;
-  left: 0;
-  position: absolute;
-  z-index: 1;
-  top: calc(50% - 12px);
-  background-color: white;
-  border-radius: 50%;
-  color: #157ab1;
-  font-size: 18px;
-  left: 8px;
-}
-.next{
-  padding: 0px 8px;
-  right: 8px;
-  position: absolute;
-  z-index: 1;
-  color: #157ab1;
-  top: calc(50% - 12px);
-  background-color: white;
-  border-radius: 50%;
-  font-size: 18px;
 }
