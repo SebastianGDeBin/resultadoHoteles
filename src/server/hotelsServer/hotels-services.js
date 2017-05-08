@@ -121,6 +121,7 @@ class HotelsServices{
                 "priceMax": 3500,
             },
             "stars":[],
+            "checkStar":[true,false,false,false,false,false],
             "numberStars": ["1","2","3","4","5"],
             "numberHotels": ["7","1","1","2","2","1"]
         };

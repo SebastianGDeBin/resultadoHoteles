@@ -36,9 +36,15 @@
 
         this.allStars = function () {
             self.filters.stars = [];
+
+            for(var i=1; i < self.filters.checkStar.length ; i++){
+                self.filters.checkStar[i] = false;
+            }
         };
 
         this.filterByStars = function (star) {
+            self.filters.checkStar[0] = false;
+
             if(self.filters.stars.indexOf(star)>-1){
                 self.filters.stars.splice(self.filters.stars.indexOf(star),1);
             }else{
