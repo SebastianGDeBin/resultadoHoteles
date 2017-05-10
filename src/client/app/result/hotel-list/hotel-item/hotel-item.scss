@@ -8,7 +8,7 @@
   padding: 8px 8px;
   .imgHotel{
     float: left;
-    height: 208px;
+    height: 194px;
     background: center;
     @include respond-to(ph){
       width: 100%;
@@ -57,19 +57,22 @@
   }
   .dataPrice{
     float: right;
-    padding: 16px;
+    padding: 12px;
     text-align: center;
     .price-hab,.imp-tasas{
       line-height: 18px;
 
     }
     p,a{
-      line-height: 16px;
+      line-height: 8px;
+
     }
     @include respond-to(ph){
       width: 100%;
       border-style:none;
       p,a{
+        padding-top: 8px;
+        line-height: 24px;
         font-size: 150%;
       }
     }
@@ -79,7 +82,7 @@
       border-width: 0.5px;
     }
     @include respond-to(dt){
-      width: 20%;
+      width: 25%;
       border-left-style: dashed ;
       border-width: 0.5px;
     }
@@ -99,7 +102,8 @@
       background-color:darkblue;
       border: none;
       color: white;
-      padding: 8px 64px;
+      padding: 8px 0px;
+      width: 100%;
       text-align: center;
       font-size: 16px;
       margin: 6px 2px;

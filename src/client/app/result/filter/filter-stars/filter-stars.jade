@@ -2,7 +2,7 @@ div.filter-ctn
     p.filter-header(ng-click="collapse =! collapse") <i class="fa fa-star" aria-hidden="true"></i> Estrellas <i class="fa fa-sort-asc" aria-hidden="true"></i>
 
     section.filter-container(ng-show="!collapse")
-        input.check-stars(type='checkbox' ng-click="$ctrl.allStars()" ng-model="$ctrl.filters.checkStar[0]")
+        input.check-stars(type='checkbox' ng-click="$ctrl.allStars()" ng-model="$ctrl.filters.checkStar[0]" ng-disabled="$ctrl.filters.checkStar[0]")
         label.all-stars Todas las estrellas
             span.number-hotels ({{$ctrl.filters.numberHotels[0]}})
 
