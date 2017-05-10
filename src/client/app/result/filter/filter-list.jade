@@ -1,11 +1,12 @@
 ul.filterList
     li.map-ctn
         map()
-    li.filtersTitle Filtrar
-        span.delet-filter(ng-click="$ctrl.removeFilters()") <i class="fa fa-times" aria-hidden="true"></i> Eliminar filtros
+    li.filters-title-ctn
+        span.filtersTitle(ng-click="collapseFilters =! collapseFilters") Filtrar
+        span.delet-filter(ng-click="$ctrl.removeFilters()" ng-show="!collapseFilters") <i class="fa fa-times" aria-hidden="true"></i> Eliminar filtros
     li
-        filter-search( filters = '$ctrl.filters')
+        filter-search( filters = '$ctrl.filters' ng-show="!collapseFilters")
     li
-        filter-price(filters = '$ctrl.filters')
+        filter-price(filters = '$ctrl.filters' ng-show="!collapseFilters")
     li
-        filter-stars(filters = '$ctrl.filters')
+        filter-stars(filters = '$ctrl.filters' ng-show="!collapseFilters")

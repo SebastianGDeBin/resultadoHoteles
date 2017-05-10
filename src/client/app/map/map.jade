@@ -1,4 +1,4 @@
 .mapa
-    img.image(src="/src/client/img/mapa-hoteles.png")
+    img.image(src="/src/client/img/mapa-hoteles.png" ng-show="!collapseMap")
 .see-hotel
-    a.see(href="") Ver hoteles en el mapa
+    a.see(href="" ng-click="collapseMap =! collapseMap" ) <i class="fa fa-map-marker" aria-hidden="true"></i> Ver hoteles en el mapa

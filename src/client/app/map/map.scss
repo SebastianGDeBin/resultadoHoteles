@@ -8,8 +8,6 @@
       margin: auto;
       width: 70%;
     }
-
-
   }
 }
 .see-hotel {
@@ -23,9 +21,13 @@
   background-color: white;
   text-align: center;
   vertical-align: center;
-  font-size: small;
+  font-size: 12px;
   padding-top: 16px;
+  @include respond-to(ph tb){
+    font-size: 16px;
+  }
     .see {
       padding-top: 10px;
+      cursor: pointer;
     }
 }

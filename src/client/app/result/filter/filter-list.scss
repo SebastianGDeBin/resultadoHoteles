@@ -9,22 +9,31 @@
     width: 100%;
     height: 100%;
   }
-  .filtersTitle {
-
-    padding-left: 8px;
-    vertical-align: center;
-    line-height: 32px;
-    background-color: #F4F4F4;
-    font-size: 16px;
-    color: #444444;
-    font-weight: bold;
-
-      .delet-filter {
-        float: right;
-        font-size: 12px;
-        margin-right: 8px;
-        cursor: pointer;
+  .filters-title-ctn{
+    @include respond-to(ph tb){
+      text-align: center;
+    }
+    .filtersTitle {
+      padding-left: 8px;
+      vertical-align: center;
+      line-height: 32px;
+      background-color: #F4F4F4;
+      font-size: 16px;
+      color: #444444;
+      cursor: pointer;
+      @include respond-to(ph tb){
         color: #1a99df;
       }
+    }
+    .delet-filter {
+      float: right;
+      font-size: 12px;
+      margin-right: 8px;
+      cursor: pointer;
+      color: #1a99df;
+      @include respond-to(ph tb){
+        display: none;
+      }
+    }
   }
 }

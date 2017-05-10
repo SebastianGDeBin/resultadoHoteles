@@ -1,8 +1,9 @@
 @import "../../scss/mixins.scss";
 .search-box{
   .title-search-status{
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 16px;
+    margin-left: -8px;
   }
   .data-search-cont{
     margin: -16px;
@@ -12,7 +13,6 @@
       display: inline-block;
       @include respond-to(ph tb){
         display: inline-flex;
-        font-size: small;
       }
       margin:8px;
     }

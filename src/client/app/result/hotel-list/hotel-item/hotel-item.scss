@@ -14,7 +14,7 @@
       width: 100%;
     }
     @include respond-to(tb){
-      width:40%;
+      width:35%;
     }
     @include respond-to(dt){
       width:35%;
@@ -27,9 +27,6 @@
     float: left;
     @include respond-to(ph){
       width: 100%;
-      p,span{
-        font-size: 150%;
-      }
     }
     @include respond-to(tb){
       width: 30%;
@@ -44,19 +41,19 @@
     }
     .stars{
       color: #FDBA12;
-      font-size: large;
+      font-size: 16px;
     }
     .room{
       color: darkorange;
       font-weight: bold;
       @include respond-to(ph){
-        font-size: small;
+        font-size: 12px;
       }
     }
     .icon{
       color: #444444;
       letter-spacing: 10px;
-      font-size: medium;
+      font-size: 16px;
     }
   }
   .dataPrice{
@@ -82,8 +79,8 @@
       border-style:none;
       p,a{
         padding-top: 8px;
-        line-height: 24px;
-        font-size: 150%;
+        line-height: 16px;
+        font-size: 12px;
       }
     }
     @include respond-to(tb){
@@ -100,10 +97,10 @@
       line-height:50%;
       vertical-align: super;
       color: darkorange;
-      font-size: 32px;
+      font-size: 28px;
       font-weight: bold;
       .priceARS{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: lighter;
       }
     }
@@ -116,6 +113,7 @@
       width: 100%;
       text-align: center;
       font-size: 16px;
+      text-anchor: bold;
       margin: 6px 2px;
       cursor: pointer;
     }

@@ -13,11 +13,14 @@
   .fa-sort-asc{
     float: right;
   }
+  @include respond-to(ph){
+
+  }
 }
 
 .filter-container{
     @include respond-to(ph){
-
+        display: none;
     }
 }
 }
