@@ -1,3 +1,4 @@
+@import '../../scss/mixins.scss';
 .row{
   overflow: hidden;
   .breadcrumb-ctn{
@@ -11,6 +12,12 @@
     margin: 0px 24px 8px 24px;
     height: 100%;
     width: 97%;
+    @include respond-to(ph){
+      width: 88%;
+    }
+    @include respond-to(tb){
+      width: 95%;
+    }
     display: inline-block;
     padding-left: 24px;
     padding-top: 16px;

@@ -1,6 +1,6 @@
 div.filter-ctn
-    p.filter-header(ng-click="collapse =! collapse") <i class="fa fa-usd" aria-hidden="true"></i> Precio por noche <i class="fa fa-sort-asc" aria-hidden="true"></i>
+    p.filter-header(ng-click="collapsePrice =! collapsePrice") <i class="fa fa-usd" aria-hidden="true"></i> Precio por noche <i class="fa fa-sort-asc" aria-hidden="true"></i>
 
-    section.filter-container(ng-show="!collapse")
+    section.filter-container(ng-show="!collapsePrice")
         rzslider(rz-slider-model='$ctrl.filters.price.priceMin', rz-slider-high='$ctrl.filters.price.priceMax', rz-slider-options='$ctrl.slider.options')
 

@@ -1,12 +1,24 @@
+@import '../../scss/mixins.scss';
 .mapa {
   width: 100%;
   .image{
     width: 100%;
+    @include respond-to(tb){
+      display: block;
+      margin: auto;
+      width: 70%;
+    }
+
 
   }
 }
 .see-hotel {
   width: 100%;
+  @include respond-to(tb){
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
   height: 50px;
   background-color: white;
   text-align: center;

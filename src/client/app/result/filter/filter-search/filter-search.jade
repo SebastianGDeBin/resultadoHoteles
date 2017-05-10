@@ -1,6 +1,6 @@
 div.filter-ctn
-    p.filter-header(ng-click="collapse =! collapse") <i class="fa fa-search" aria-hidden="true"></i> Nombre del hotel <i class="fa fa-sort-asc" aria-hidden="true"></i>
+    p.filter-header(ng-click="collapseSearch =! collapseSearch") <i class="fa fa-search" aria-hidden="true"></i> Nombre del hotel <i class="fa fa-sort-asc" aria-hidden="true"></i>
 
-    section.filter-container(ng-show="!collapse")
+    section.filter-container(ng-show="!collapseSearch")
         input.search-value(data-ng-model="$ctrl.filters.nameDefault" placeholder="Ingrese el nombre del hotel")
         button.button-search(ng-click="$ctrl.filterByName()" type='button') Aceptar
