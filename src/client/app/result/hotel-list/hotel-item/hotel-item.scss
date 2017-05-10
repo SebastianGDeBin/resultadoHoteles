@@ -40,6 +40,7 @@
 
     .nameHotel{
       font-weight: bold;
+      cursor: pointer;
     }
     .stars{
       color: #FDBA12;
@@ -48,6 +49,9 @@
     .room{
       color: darkorange;
       font-weight: bold;
+      @include respond-to(ph){
+        font-size: small;
+      }
     }
     .icon{
       color: #444444;
@@ -59,12 +63,18 @@
     float: right;
     padding: 12px;
     text-align: center;
+    font-size: 12px;
+    @include respond-to(ph){
+      font-size: 8px;
+    }
     .price-hab,.imp-tasas{
-      line-height: 18px;
-
+      line-height: 16px;
     }
     p,a{
-      line-height: 8px;
+      line-height: 16px;
+      @include respond-to(ph){
+        margin-bottom: 6px;
+      }
 
     }
     @include respond-to(ph){

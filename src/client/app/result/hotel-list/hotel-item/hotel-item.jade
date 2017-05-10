@@ -3,7 +3,8 @@ div.descHotel
         slider(items="$ctrl.hotel.images")
 
     section.dataHotel
-        p.nameHotel {{$ctrl.hotel.name}}
+        a.nameHotel {{$ctrl.hotel.name}}
+        br
         span.stars(ng-repeat=("star in $ctrl.stars() track by $index"))
             <i class="fa fa-star" aria-hidden="true"></i>
         p.room <i class="fa fa-bed" aria-hidden="true"></i> Solo la habitacion
