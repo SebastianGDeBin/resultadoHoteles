@@ -5,7 +5,7 @@ ul.filterList
         span.filtersTitle(ng-click="collapseFilters =! collapseFilters") Filtrar
         span.delet-filter(ng-click="$ctrl.removeFilters()" ng-show="!collapseFilters") <i class="fa fa-times" aria-hidden="true"></i> Eliminar filtros
     li
-        filter-search( filters = '$ctrl.filters' ng-show="!collapseFilters")
+        filter-search(filters = '$ctrl.filters' ng-show="!collapseFilters")
     li
         filter-price(filters = '$ctrl.filters' ng-show="!collapseFilters")
     li

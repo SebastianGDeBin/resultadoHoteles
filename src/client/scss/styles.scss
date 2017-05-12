@@ -38,3 +38,34 @@ body, html{
     text-align: center;
   }
 }
+footer{
+  .am-footer .column .list .item .link{
+    font-size: 12px;
+  }
+  .am-footer .column .list .item .block-childs{
+    span{
+      font-size: 12px;
+    }
+    .am-footer .column .list .item .linksocial{
+      span{
+        font-size: 12px;
+      }
+    }
+    .am-footer .column .list .item{
+      font-size: 12px;
+    }
+
+  }
+
+  .am-footer{
+    .legal-row .info p{
+      font-size: 10px;
+    }
+    .column .title{
+      font-size: 16px;
+    }
+    .colum .list .item{
+      font-size: 16px;
+    }
+  }
+}

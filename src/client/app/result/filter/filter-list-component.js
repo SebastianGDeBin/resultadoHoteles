@@ -16,8 +16,7 @@
 
         this.removeFilters = function () {
             self.hotelsResultCtrl.$onInit();
-        }
-
+        };
     }
 
 })();

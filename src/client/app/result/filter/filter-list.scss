@@ -12,6 +12,7 @@
   .filters-title-ctn{
     @include respond-to(ph tb){
       text-align: center;
+      border-bottom: 1px solid #CCC;
     }
     .filtersTitle {
       padding-left: 8px;

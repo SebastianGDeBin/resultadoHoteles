@@ -16,6 +16,7 @@
     display: block;
     margin: auto;
     width: 70%;
+    border-bottom: 1px solid #CCC;
   }
   height: 50px;
   background-color: white;
@@ -25,6 +26,7 @@
   padding-top: 16px;
   @include respond-to(ph tb){
     font-size: 16px;
+    border-bottom: 1px solid #CCC;
   }
     .see {
       padding-top: 10px;
