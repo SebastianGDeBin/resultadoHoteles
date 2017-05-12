@@ -10,20 +10,22 @@
     height: 100%;
   }
   .filters-title-ctn{
+    background-color:#F4F4F4;
     @include respond-to(ph tb){
       text-align: center;
+      box-shadow: 0px 1px 3px 0px rgba(119, 119, 119, 0.3);
       border-bottom: 1px solid #CCC;
     }
     .filtersTitle {
       padding-left: 8px;
       vertical-align: center;
       line-height: 32px;
-      background-color: #F4F4F4;
       font-size: 16px;
       color: #444444;
       cursor: pointer;
       @include respond-to(ph tb){
         color: #1a99df;
+        background-color:#F4F4F4;
       }
     }
     .delet-filter {

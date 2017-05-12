@@ -1,6 +1,7 @@
 @import '../../scss/mixins.scss';
 .mapa {
   width: 100%;
+  box-shadow: 0px 1px 3px 0px rgba(119, 119, 119, 0.3);
   .image{
     width: 100%;
     @include respond-to(tb){
@@ -12,19 +13,21 @@
 }
 .see-hotel {
   width: 100%;
+  box-shadow: 0px 1px 3px 0px rgba(119, 119, 119, 0.3);
   @include respond-to(tb){
     display: block;
     margin: auto;
-    width: 70%;
+    background-color:#F4F4F4;
+    width: 100%;
     border-bottom: 1px solid #CCC;
   }
   height: 50px;
-  background-color: white;
   text-align: center;
   vertical-align: center;
   font-size: 12px;
   padding-top: 16px;
   @include respond-to(ph tb){
+    background-color:#F4F4F4;
     font-size: 16px;
     border-bottom: 1px solid #CCC;
   }

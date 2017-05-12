@@ -1,7 +1,7 @@
 div.search-box
-    section.title-search-status Hoteles disponibles para:
+    p.title-search-status(ng-click="collapseSearch =! collapseSearch") Hoteles disponibles para:
 
-    section.data-search-cont
+    section.data-search-cont(ng-show="!collapseSearch")
         p.data <i class="fa fa-map-marker" aria-hidden="true"></i> madrid
         p.data <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 17/02/2017
         p.data <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 17/05/2017
